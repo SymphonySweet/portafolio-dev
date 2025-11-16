@@ -1,4 +1,4 @@
-Laboratorios de Base de Datos (Oracle)
+Laboratorio de Base de Datos (Oracle)
 
 En esta carpeta estoy guardando mis prácticas del curso de Bases de Datos utilizando Oracle SQL Developer.
 Los ejercicios incluyen consultas básicas, formato de datos y operaciones con múltiples tablas.
