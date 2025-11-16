@@ -1,0 +1,45 @@
+.titulo-azul {
+  color: blue;
+}
+
+.parrafo-rojo {
+  color: red;
+}
+
+#subtitulo-verde {
+  color: green;
+}
+
+.rojo {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+
+.azul {
+  color: blue;
+}
+
+.naranja {
+  color: orange;
+}
+
+.morado {
+  color: purple;
+}
+
+.caja {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/6111993.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}

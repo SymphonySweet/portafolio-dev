@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiempo restante del día</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        #contador {
+            font-size: 2em;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tiempo restante para acabar el día</h1>
+    <div id="contador">Cargando...</div>
+
+    <script>
+        function actualizarTiempoRestante() {
+            const ahora = new Date();
+            const finDelDia = new Date();
+            finDelDia.setHours(23, 59, 59, 999);
+            const diferencia = finDelDia - ahora;
+
+            if (diferencia <= 0) {
+                document.getElementById("contador").textContent = "¡El día ha terminado!";
+                return;
+            }
+
+            const horas = Math.floor(diferencia / (1000 * 60 * 60));
+            const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+            document.getElementById("contador").textContent =
+                `${horas}h ${minutos}m ${segundos}s restantes`;
+        }
+
+        setInterval(actualizarTiempoRestante, 1000);
+        actualizarTiempoRestante();
+    </script>
+
+</body>
+</html>

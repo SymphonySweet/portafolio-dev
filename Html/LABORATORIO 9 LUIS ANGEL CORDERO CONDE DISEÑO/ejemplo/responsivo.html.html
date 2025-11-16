@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería Gamer - Consolas</title>
+  <!-- Bootstrap desde CDN -->
+  <link href="bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0b0c10;
+      color: #66fcf1;
+      font-family: 'Orbitron', sans-serif;
+    }
+    .card {
+      background: #1f2833;
+      border: 2px solid #45a29e;
+      transition: transform 0.4s, box-shadow 0.4s;
+      height: 100%;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #66fcf1;
+    }
+    .card-img-top, .carousel-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    footer {
+      background: #1f2833;
+    }
+  </style>
+</head>
+<body>
+
+<header class="text-white text-center py-4 mb-4">
+  <h1>Galería Gamer: Consolas</h1>
+</header>
+
+<!-- Carrusel de Consolas -->
+<div id="carouselConsolas" class="carousel slide mb-5 container" data-bs-ride="carousel">
+  <div class="carousel-inner rounded">
+    <div class="carousel-item active">
+      <img src="img/ps5.jpg" class="d-block w-100" alt="PS5">
+    </div>
+    <div class="carousel-item">
+      <img src="img/xbox.jpg" class="d-block w-100" alt="Xbox">
+    </div>
+    <div class="carousel-item">
+      <img src="img/switch.jpg" class="d-block w-100" alt="Switch">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselConsolas" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselConsolas" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Galería de Consolas (2 imágenes por fila) -->
+<div class="container">
+  <div class="row g-4 mb-3">
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <img src="img/ps5.jpg" class="card-img-top" alt="PS5">
+        <div class="card-body text-center"><h5>PlayStation 5</h5></div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <img src="img/xbox.jpg" class="card-img-top" alt="Xbox">
+        <div class="card-body text-center"><h5>Xbox Series X</h5></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-4 mb-3 justify-content-center">
+    <div class="col-6">
+      <div class="card shadow-sm">
+        <img src="img/switch.jpg" class="card-img-top" alt="Switch">
+        <div class="card-body text-center"><h5>Nintendo Switch</h5></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-white text-center py-3 mt-4">
+  <p>&copy; 2025 Galería Gamer - Consolas</p>
+</footer>
+
+<!-- Bootstrap JS CDN -->
+<script src="bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
