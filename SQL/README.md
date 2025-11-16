@@ -1,14 +1,23 @@
-# Laboratorios de Base de Datos (Oracle)
+Laboratorios de Base de Datos (Oracle)
 
-En esta carpeta estoy almacenando mis prácticas del curso de Base de Datos. Actualmente se encuentra un archivo en formato `.db`, exportado desde Oracle, donde se guardan mis consultas y tablas creadas durante los laboratorios.
+En esta carpeta estoy guardando mis prácticas del curso de Bases de Datos utilizando Oracle SQL Developer.
+Los ejercicios incluyen consultas básicas, formato de datos y operaciones con múltiples tablas.
 
-Trabajo principalmente con:
+Actualmente cuento con:
 
-- creación de tablas
-- inserción de datos
-- consultas básicas (`SELECT`)
-- filtros (`WHERE`)
-- funciones simples
-- operaciones con datos
+Creación de tablas
 
-Estoy convirtiendo mis prácticas a archivos `.sql` para que puedan visualizarse directamente en GitHub.
+Inserción y visualización de registros
+
+Consultas básicas con SELECT
+
+Uso de filtros con WHERE
+
+Formato de números con TO_CHAR
+
+Consultas con JOIN entre varias tablas
+
+Uso de subconsultas con ALL
+
+También estoy convirtiendo mis prácticas en archivos .sql para que puedan visualizarse directamente en GitHub.
+Los laboratorios están organizados por número y contienen exactamente las consultas que desarrollé en clase.
