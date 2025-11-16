@@ -1,4 +1,4 @@
-# portafolio-dev
+# Portafolio-dev
 Portafolio de Desarrollo – Luis Angel Cordero Conde
 
 Bienvenido(a) a mi portafolio. Aquí organizo los trabajos y ejercicios que he desarrollado durante mis cursos de programación, con el objetivo de mostrar mi avance, mis bases técnicas y mi interés por seguir aprendiendo.
@@ -6,7 +6,7 @@ Bienvenido(a) a mi portafolio. Aquí organizo los trabajos y ejercicios que he d
 Este repositorio refleja mi proceso de formación en Python, Java, Desarrollo Web (HTML/CSS/Bootstrap) y SQL con Oracle, mediante proyectos sencillos, laboratorios y ejercicios guiados.
 
 Contenido del Portafolio
-Python – Fundamentos de Programación
+# Python – Fundamentos de Programación
 
 Colección de laboratorios donde aplico los conceptos base:
 
@@ -24,7 +24,7 @@ Ejercicios de práctica y examen
 
 Cada laboratorio está separado en su propia carpeta con código ejecutable.
 
-Java – Programación Orientada a Objetos
+# Java – Programación Orientada a Objetos
 
 Ejercicios realizados en NetBeans, donde practico:
 
@@ -44,7 +44,7 @@ Programas pequeños en consola
 
 El objetivo es fortalecer lógica, sintaxis y estructura de programas simples.
 
-Desarrollo Web – HTML y Bootstrap
+# Desarrollo Web – HTML y Bootstrap
 
 Prácticas orientadas a la construcción de interfaces básicas:
 
@@ -60,7 +60,7 @@ Proyectos con temática gamer/SC2 según los laboratorios del curso
 
 Enfocado en aprender estructura, maquetación y componentes visuales.
 
-SQL – Oracle
+# SQL – Oracle
 
 Ejercicios realizados con Oracle APEX, exportados a archivos .sql.
 Incluyen:
@@ -81,7 +81,7 @@ Consultas para reportes simples
 
 Representan prácticas reales del curso y consultas ejecutadas en clase.
 
-Objetivo de este portafolio
+# Objetivo de este portafolio
 
 Este repositorio tiene dos propósitos principales:
 
